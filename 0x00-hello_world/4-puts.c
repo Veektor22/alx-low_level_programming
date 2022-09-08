@@ -3,15 +3,15 @@
 
 /**
  *
- * * main - entry point
+ * main - entry point
  *
- * * Return: 0 after printing the function
+ * Return: 0 after printing the function
  *
- * */
+ */
 
 int main(void)
 
-{puts("\"programmimg is like building a multilingual puzzle");
+{puts("\"programming is like building a multilingual puzzle");
 
 		return (0);
 
