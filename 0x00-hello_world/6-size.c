@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -11,7 +11,6 @@ long int b;
 long long int c;
 char d;
 float f;
-
 printf ("size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
 printf ("size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
 printf ("size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
