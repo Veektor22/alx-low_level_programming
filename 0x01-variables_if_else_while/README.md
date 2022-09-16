@@ -1,4 +1,1 @@
-ls
-pwd
-clear
-
+My new readme
