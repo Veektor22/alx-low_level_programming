@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * _puts - prints a string
 * @str: A pointer to an int that will be changed
@@ -6,17 +7,14 @@
 * Return: void which means our answer is correct
 */
 
-void print_rev(char *s)
+void _puts(char *str)
 {
-int i;
-i = 0;
-while (s[i] != '\0')
-{
-i++;
-}
-for (i =i -1 ; i >= 0; i--)
-{
-_putchar (s[i]);
-}
-_putchar ('\n');
+  int i =0;
+
+  while (*(str + i) != '\0')
+    {
+      putchar(*(str + i));
+      i++;
+    }
+  putchar(10);
 }
