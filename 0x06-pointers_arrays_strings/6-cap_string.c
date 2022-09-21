@@ -7,9 +7,9 @@
 
 char *cap_string(char *s)
 {
-int x, y;
-int trigger;
-char nots[] = ",;.!?(){}\nt\" ";
+  int x, y;
+  int trigger;
+  char nots[] = ",;.!?(){}\nt\" ";
 for (x = 0, trigger = 0; s[x] != '\0'; x++)
 {
 if s[0] > 96 && s[0] < 123)
@@ -31,6 +31,6 @@ trigger = 0;
 else if (s[x] > 47 && s[x] < 58)
 trigger = 0;
 }
-}
+
 return (s);
 }
