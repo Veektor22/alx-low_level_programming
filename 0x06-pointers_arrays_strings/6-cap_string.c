@@ -1,11 +1,12 @@
 #include "main.h"
+
 /**
 * cap_string - captitalizes the words of string
 * @s: string
 * Return: s
 */
 
-char *cap_string(char *s)
+char *cap_string(char *s);
 {
   int x, y;
   int trigger;
@@ -31,6 +32,6 @@ trigger = 0;
 else if (s[x] > 47 && s[x] < 58)
 trigger = 0;
 }
-
+}
 return (s);
 }
