@@ -5,7 +5,7 @@
 * @x: string param
 * Return: string
 */
-
+{
 char *string_toupper(char *x)
 {
 int i = 0;
@@ -17,3 +17,4 @@ i++;
 }
 }
 return (x);
+}
