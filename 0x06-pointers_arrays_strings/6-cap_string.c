@@ -4,12 +4,12 @@
 * @s: string
 * Return: x
 */
-
 char *cap_string(char *x)
 {
-  char spc[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
-  int len = 13;
-  int a = 0, i;
+char X[]= "Victor, is; learning programming in africa";
+char spc[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+int len = 13;
+int a = 0, i;
 while (x[a])
 {
 i = 0;
