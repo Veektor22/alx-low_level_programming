@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+/**
+ * main - entry block
+ * Return: 0 Success
+ *
+ */
+
+int main(void)
+{
+	int n;
+	n = 1;
+	printf("%d", n);
+	for (n = 2; 
+		else
+
+		{
+
+			printf(" %d", n);
+
+		}
+
+	}
+
+	printf("\n");
+
+	return (0);
+
+}
