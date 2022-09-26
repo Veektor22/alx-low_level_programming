@@ -1,17 +1,10 @@
 #include <stdio.h>
 
-
-
 /**
-
  * _strspn - function that gets the length of a prefix substring.
-
  *
-
  * @s: string pointer to char type
-
  * @accept: consist only of bytes
-
  *
  * Return: number of bytes in the initial segment
  *
