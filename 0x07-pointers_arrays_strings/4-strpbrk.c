@@ -7,7 +7,6 @@
  *
  * Return: pointer to the byte
  *
- * AUTHOR -  ALABI TIMOTHY
  */
 
 char *_strpbrk(char *s, char *accept)
